@@ -27,7 +27,7 @@ CREATE TABLE booking (
     user_id INT NOT NULL,
     room_id INT NOT NULL,
     reason VARCHAR(255) NOT NULL,
-    booked_at DATETIME NOT NULL,
+    ticket_date DATETIME NOT NULL,
     booking_date DATE NOT NULL,
     start_time TIME NOT NULL,
     end_time TIME NOT NULL,
