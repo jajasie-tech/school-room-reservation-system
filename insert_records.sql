@@ -31,7 +31,7 @@ INSERT INTO booking (
     user_id,
     room_id,
     reason,
-    ticket,
+    ticket_date,
     date_book,
     start_time,
     end_time,
