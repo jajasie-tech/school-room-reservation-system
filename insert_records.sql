@@ -1,6 +1,4 @@
-
--- users/role/name 
-
+-- users / role / name
 
 INSERT INTO users (user_id, name, role) VALUES
 (1, 'Juan Dela Cruz', 'Student'),
@@ -17,7 +15,6 @@ INSERT INTO users (user_id, name, role) VALUES
 
 -- room types
 
-
 INSERT INTO room_type (type_id, type_name) VALUES
 (1, 'Classroom'),
 (2, 'Computer Laboratory'),
@@ -29,8 +26,7 @@ INSERT INTO room_type (type_id, type_name) VALUES
 (8, 'Conference Room');
 
 
--- For rooms
-
+-- rooms
 
 INSERT INTO rooms (room_id, type_id, room_name, location) VALUES
 (1, 1, 'Room 1101', 'Building 1'),
@@ -44,8 +40,8 @@ INSERT INTO rooms (room_id, type_id, room_name, location) VALUES
 (9, 2, 'Computer Lab 2', 'Building 2'),
 (10, 1, 'Room 5103', 'Building 5');
 
--- Para sa status 
 
+-- booking status
 
 INSERT INTO booking_status (status_id, status_name) VALUES
 (1, 'Pending'),
@@ -54,7 +50,8 @@ INSERT INTO booking_status (status_id, status_name) VALUES
 (4, 'Cancelled'),
 (5, 'Completed');
 
--- Para sa BOOKINGS
+
+-- bookings
 
 INSERT INTO booking (
     booking_id,
@@ -218,7 +215,7 @@ INSERT INTO booking (
  '2026-10-05',
  '13:00:00',
  '16:00:00',
- 6),
+ 1),
 
 (20, 7, 6,
  'Faculty Workshop',
